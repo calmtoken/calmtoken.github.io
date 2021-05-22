@@ -1,27 +1,431 @@
-<!doctype html>
-<html lang="{{ app()->getLocale() }}">
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
+<!DOCTYPE html>
+<html lang="en">
 
-        <title>Calm Token</title>
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-        <!-- Fonts -->
-        
-        <link href="https://fonts.googleapis.com/css?family=Concert+One|Roboto" rel="stylesheet">
-        <link href="https://fonts.googleapis.com/css?family=Fredoka+One" rel="stylesheet">
-        <link href="https://fonts.googleapis.com/css?family=Righteous" rel="stylesheet">
+  <title>$CALM - Calm Token</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
 
-        <!-- Styles -->
-        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+  <!-- Favicons -->
+  <link href="assets/img/favicon.png" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
 
-        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Roboto:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
 
-        <link href="assets/css/main.css" rel="stylesheet">
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
 
-    </head>
-    <body>
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt, ab veniam tempore nesciunt numquam, ipsam minima consectetur nihil magnam voluptatibus aspernatur at hic quia repellendus! Libero totam exercitationem molestiae ut.
-    </body>
+  <!-- Template Main CSS File -->
+  <link href="assets/css/style.css" rel="stylesheet">
+
+  <!-- =======================================================
+  * Template Name: Techie - v4.2.0
+  * Template URL: https://bootstrapmade.com/techie-free-skin-bootstrap-3/
+  * Author: BootstrapMade.com
+  * License: https://bootstrapmade.com/license/
+  ======================================================== -->
+</head>
+
+<body>
+
+  <!-- ======= Header ======= -->
+  <header id="header" class="fixed-top ">
+    <div class="container d-flex align-items-center justify-content-between">
+      <h1 class="logo"><a href="index.html">$CALM</a></h1>
+      <!-- Uncomment below if you prefer to use an image logo -->
+      <!-- <a href="index.html" class="logo"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
+
+      <nav id="navbar" class="navbar">
+        <ul>
+          <li><a class="nav-link scrollto active" href="#hero">Home</a></li>
+          <li><a class="nav-link scrollto" href="#about">About</a></li>
+          <li><a class="nav-link scrollto" href="#features">Features</a></li>
+          <li><a class="nav-link scrollto" href="#roadmap">Roadmap</a></li>
+          <li><a class="getstarted scrollto" href="https://exchange.pancakeswap.finance/#/swap?outputCurrency=0x69A0119552d9D4B66624B23192627798309BBB88">Buy on Pancake Swap</a></li>
+        </ul>
+        <i class="bi bi-list mobile-nav-toggle"></i>
+      </nav><!-- .navbar -->
+
+    </div>
+  </header><!-- End Header -->
+
+  <!-- ======= Hero Section ======= -->
+
+  <section id="hero" class="d-flex align-items-center">
+    <video autoplay muted loop id="myVideo">
+      <source src="assets/img/hero-img.mp4" type="video/mp4">
+    </video>
+    <div id="myVideoBackground">
+    </div>
+    <div class="container-fluid" data-aos="fade-up">
+      <div class="row justify-content-center">
+        <div class="col-xl-5 col-lg-6 pt-3 pt-lg-0 order-2 order-lg-1 d-flex flex-column justify-content-center">
+          <h1>we've been there bro</h1>
+          <h2>let's all calm down 💎 🙌</h2>
+          <div><a href="https://exchange.pancakeswap.finance/#/swap?outputCurrency=0x69A0119552d9D4B66624B23192627798309BBB88" class="btn-get-started scrollto">Buy on Pancake Swap</a></div>
+        </div>
+        <div class="col-xl-4 col-lg-6 order-1 order-lg-2 hero-img" data-aos="zoom-in" data-aos-delay="150">
+          <img src="assets/img/hero-img.png" class="img-fluid animated" alt="">
+        </div>
+      </div>
+    </div>
+
+  </section><!-- End Hero -->
+
+  <main id="main">
+
+    <!-- ======= Counts Section ======= -->
+    <section id="about" class="counts">
+      <div class="container">
+
+        <div class="row counters">
+
+          <div class="col-lg-3 col-6 text-center d-flex justify-content-center align-items-center">
+            <a href="https://github.com/calmtoken">
+              <img src="assets/img/github-white.png" width="55%" alt="">
+            </a>
+          </div>
+
+          <div class="col-lg-3 col-6 text-center d-flex justify-content-center align-items-center">
+            <a href="https://bscscan.com/token/0x69A0119552d9D4B66624B23192627798309BBB88">
+              <img src="assets/img/bscscan.png" width="80%" alt="">
+            </a>
+          </div>
+
+          <div class="col-lg-3 col-6 text-center d-flex justify-content-center align-items-center">
+            <a href="https://poocoin.app/tokens/0x69a0119552d9d4b66624b23192627798309bbb88" class="flex-column d-flex justify-content-center align-items-center">
+              <img src="assets/img/poocoin.png" width="17%" alt="">
+              <h3 class="text-white">Poocoin Chart</h3>
+            </a>
+          </div>
+
+          <div class="col-lg-3 col-6 text-center d-flex flex-column justify-content-center align-items-center">
+            <span data-purecounter-start="0" data-purecounter-end="99000000000" data-purecounter-duration="1" class="purecounter"></span>
+            <p>Total Supply</p>
+          </div>
+
+        </div>
+
+      </div>
+    </section><!-- End Counts Section -->
+
+
+    <!-- ======= Counts Section ======= -->
+    <section id="counts" class="counts2">
+      <div class="container">
+
+        <div class="row counters">
+
+          <div class="col-lg-3 col-6 text-center d-flex flex-column justify-content-center align-items-center">
+            <div class="d-flex flex-row">
+              <span data-purecounter-start="0" data-purecounter-end="5" data-purecounter-duration="1" class="purecounter"></span>
+              <h1 class="text-white">%</h1>
+            </div>
+            <p>Back to holders</p>
+          </div>
+
+          <div class="col-lg-3 col-6 text-center d-flex flex-column justify-content-center align-items-center">
+            <div class="d-flex flex-row">
+              <span data-purecounter-start="0" data-purecounter-end="4" data-purecounter-duration="1" class="purecounter"></span>
+              <h1 class="text-white">%</h1>
+            </div>
+            <p>Liquidity Pool</p>
+          </div>
+
+          <div class="col-lg-3 col-6 text-center d-flex flex-column justify-content-center align-items-center">
+            <div class="d-flex flex-row">
+              <span data-purecounter-start="0" data-purecounter-end="1" data-purecounter-duration="1" class="purecounter"></span>
+              <h1 class="text-white">%</h1>
+            </div>
+            <p>Monthly burn and Airdrops</p>
+          </div>
+
+          <div class="col-lg-3 col-6 text-center d-flex flex-column justify-content-center align-items-center">
+            <span data-purecounter-start="0" data-purecounter-end="1000000000" data-purecounter-duration="1" class="purecounter"></span>
+            <p>Burned tokens</p>
+          </div>
+
+        </div>
+
+      </div>
+    </section><!-- End Counts Section -->
+
+    <!-- ======= Services Section ======= -->
+    <section id="features" class="services section-bg">
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-title">
+          <h2>Features</h2>
+        </div>
+
+        <div class="row gy-4">
+          <div class="col-lg-4 col-md-6 d-flex align-items-stretch" data-aos="zoom-in" data-aos-delay="100">
+            <div class="icon-box iconbox-blue d-flex flex-column justify-content-center align-items-center">
+              <h4>Automatic Liquidity Pool</h4>
+              <p>There is a 4% fee of every transaction that will go directly to the pancake swap V2 liquidity pool benefeting all holders</p>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 d-flex align-items-stretch" data-aos="zoom-in" data-aos-delay="200">
+            <div class="icon-box iconbox-orange d-flex flex-column justify-content-center align-items-center">
+              <h4>Anti Pump-Dump-Exist Whales</h4>
+              <p>A limit is set depending on how much traction the token has, that will avoid any giant transaction to be made. Currently 10000000 Tokens</p>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 d-flex align-items-stretch" data-aos="zoom-in" data-aos-delay="200">
+            <div class="icon-box iconbox-orange d-flex flex-column justify-content-center align-items-center">
+              <h4>Earn $CALM by hodling $CALM</h4>
+              <p>5% of every transaction will be automatically redirected to all current $CALM holders</p>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 d-flex align-items-stretch" data-aos="zoom-in" data-aos-delay="200">
+            <div class="icon-box iconbox-orange d-flex flex-column justify-content-center align-items-center">
+              <h4>Reducing fees over time</h4>
+              <p>The main goal of this token is a natural growth, that's why we are planning on reducing 10% fee over time to allow to this token be used in common transactions and possible use cases that we can find in the future</p>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 d-flex align-items-stretch" data-aos="zoom-in" data-aos-delay="200">
+            <div class="icon-box iconbox-orange d-flex flex-column justify-content-center align-items-center">
+              <h4>Community driven</h4>
+              <p>The 1% pool fee will be use to giveaway prices, airdrops or more, all will be disclose in the groups as well in this webpage and people will be able to vote in what they want to do with that amount of $CALM </p>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 d-flex align-items-stretch" data-aos="zoom-in" data-aos-delay="200">
+            <div class="icon-box iconbox-orange d-flex flex-column justify-content-center align-items-center">
+              <h4>Monthly Burning</h4>
+              <p>Every month a percentage of the 1% pool will be burn, reducing the already low marketcap and benefeting all holders with less supply overall</p>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section><!-- End Services Section -->
+
+    <!-- ======= Testimonials Section ======= -->
+    <!-- <section id="testimonials" class="testimonials section-bg">
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-title">
+          <h2>Testimonials</h2>
+          <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
+        </div>
+
+        <div class="testimonials-slider swiper-container" data-aos="fade-up" data-aos-delay="100">
+          <div class="swiper-wrapper">
+
+            <div class="swiper-slide">
+              <div class="testimonial-item">
+                <p>
+                  <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+                  Proin iaculis purus consequat sem cure digni ssim donec porttitora entum suscipit rhoncus. Accusantium quam, ultricies eget id, aliquam eget nibh et. Maecen aliquam, risus at semper.
+                  <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+                </p>
+                <img src="assets/img/testimonials/testimonials-1.jpg" class="testimonial-img" alt="">
+                <h3>Saul Goodman</h3>
+                <h4>Ceo &amp; Founder</h4>
+              </div>
+
+            <div class="swiper-slide">
+              <div class="testimonial-item">
+                <p>
+                  <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+                  Export tempor illum tamen malis malis eram quae irure esse labore quem cillum quid cillum eram malis quorum velit fore eram velit sunt aliqua noster fugiat irure amet legam anim culpa.
+                  <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+                </p>
+                <img src="assets/img/testimonials/testimonials-2.jpg" class="testimonial-img" alt="">
+                <h3>Sara Wilsson</h3>
+                <h4>Designer</h4>
+              </div>
+
+            <div class="swiper-slide">
+              <div class="testimonial-item">
+                <p>
+                  <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+                  Enim nisi quem export duis labore cillum quae magna enim sint quorum nulla quem veniam duis minim tempor labore quem eram duis noster aute amet eram fore quis sint minim.
+                  <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+                </p>
+                <img src="assets/img/testimonials/testimonials-3.jpg" class="testimonial-img" alt="">
+                <h3>Jena Karlis</h3>
+                <h4>Store Owner</h4>
+              </div>
+
+            <div class="swiper-slide">
+              <div class="testimonial-item">
+                <p>
+                  <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+                  Fugiat enim eram quae cillum dolore dolor amet nulla culpa multos export minim fugiat minim velit minim dolor enim duis veniam ipsum anim magna sunt elit fore quem dolore labore.
+                  <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+                </p>
+                <img src="assets/img/testimonials/testimonials-4.jpg" class="testimonial-img" alt="">
+                <h3>Matt Brandon</h3>
+                <h4>Freelancer</h4>
+              </div>
+
+            <div class="swiper-slide">
+              <div class="testimonial-item">
+                <p>
+                  <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+                  Quis quorum aliqua sint quem legam fore sunt eram irure aliqua veniam tempor noster veniam enim culpa labore duis sunt culpa nulla illum cillum fugiat legam esse veniam culpa.
+                  <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+                </p>
+                <img src="assets/img/testimonials/testimonials-5.jpg" class="testimonial-img" alt="">
+                <h3>John Larson</h3>
+                <h4>Entrepreneur</h4>
+              </div>
+
+          </div>
+          <div class="swiper-pagination"></div>
+        </div>
+
+      </div>
+    </section> -->
+    
+    <!-- End Testimonials Section -->
+
+    <!-- ======= Frequently Asked Questions Section ======= -->
+    <section id="roadmap" class="faq">
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-title">
+          <h2>Roadmap</h2>
+          <p>This token is pretty new and we are working in some basic stuff related to liquidity and marketing, this means that the current roadmap is a very aproximated version of what we wish it would happen in the future, once the token gains some traction official documentation will be released.</p>
+        </div>
+
+        <div class="faq-list">
+          <ul>
+            <li data-aos="fade-up" data-aos="fade-up" data-aos-delay="100">
+              <i class="bx bx-help-circle icon-help"></i> <a data-bs-toggle="collapse" class="collapse" data-bs-target="#faq-list-1">Social Media <i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
+              <div id="faq-list-1" class="collapse show" data-bs-parent=".faq-list">
+                <p>
+                  We are working on creating several social media groups so people can gather and vote with the community on possible future changes.
+                </p>
+              </div>
+            </li>
+
+            <li data-aos="fade-up" data-aos-delay="200">
+              <i class="bx bx-help-circle icon-help"></i> <a data-bs-toggle="collapse" data-bs-target="#faq-list-2" class="collapsed">Pancake Swap V2 Liquidity <i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
+              <div id="faq-list-2" class="collapse" data-bs-parent=".faq-list">
+                <p>
+                  Little by little we are adding liquidity so people can buy the token really cheap and we are focus on not centrelize any huge amount of them.
+                </p>
+              </div>
+            </li>
+
+          </ul>
+        </div>
+
+      </div>
+    </section><!-- End Frequently Asked Questions Section -->
+
+  </main><!-- End #main -->
+
+  <!-- ======= Footer ======= -->
+  <!-- <footer id="footer">
+
+    <div class="footer-top">
+      <div class="container">
+        <div class="row">
+
+          <div class="col-lg-3 col-md-6 footer-contact">
+            <h3>Techie</h3>
+            <p>
+              A108 Adam Street <br>
+              New York, NY 535022<br>
+              United States <br><br>
+              <strong>Phone:</strong> +1 5589 55488 55<br>
+              <strong>Email:</strong> info@example.com<br>
+            </p>
+          </div>
+
+          <div class="col-lg-2 col-md-6 footer-links">
+            <h4>Useful Links</h4>
+            <ul>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Home</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">About us</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Services</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Terms of service</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Privacy policy</a></li>
+            </ul>
+          </div>
+
+          <div class="col-lg-3 col-md-6 footer-links">
+            <h4>Our Services</h4>
+            <ul>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Web Design</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Web Development</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Product Management</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Marketing</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Graphic Design</a></li>
+            </ul>
+          </div>
+
+          <div class="col-lg-4 col-md-6 footer-newsletter">
+            <h4>Join Our Newsletter</h4>
+            <p>Tamen quem nulla quae legam multos aute sint culpa legam noster magna</p>
+            <form action="" method="post">
+              <input type="email" name="email"><input type="submit" value="Subscribe">
+            </form>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+
+      <div class="copyright-wrap d-md-flex py-4">
+        <div class="me-md-auto text-center text-md-start">
+          <div class="copyright">
+            &copy; Copyright <strong><span>Techie</span></strong>. All Rights Reserved
+          </div>
+          <div class="credits">
+            All the links in the footer should remain intact.
+            Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
+          </div>
+        </div>
+        <div class="social-links text-center text-md-right pt-3 pt-md-0">
+          <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a>
+          <a href="#" class="facebook"><i class="bx bxl-facebook"></i></a>
+          <a href="#" class="instagram"><i class="bx bxl-instagram"></i></a>
+          <a href="#" class="google-plus"><i class="bx bxl-skype"></i></a>
+          <a href="#" class="linkedin"><i class="bx bxl-linkedin"></i></a>
+        </div>
+      </div>
+
+    </div>
+  </footer> -->
+  
+  <!-- End Footer -->
+
+  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+  <div id="preloader"></div>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+  <script src="assets/vendor/purecounter/purecounter.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+
+  <!-- Template Main JS File -->
+  <script src="assets/js/main.js"></script>
+
+</body>
+
 </html>
