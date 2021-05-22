@@ -54,9 +54,5 @@
 .+++++:`                                       -:/:-        ```.`                                   
                                                    -:+.   `o:---`                                   
                                                      .+:::o`                                        
-   #CALM
-   #features:
-   4% fee auto add to the liquidity pool to be locked forever when selling
-   5% fee auto distribute to all holders
-   1% fee dev address to burn
-   Dont't panic just CALM
+
+# CALM TOKEN
